@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-7@k$gg1q-6(%y=@mekj2&+pm9%pvkt3-#wpnum@=7m+yqvsosw
 DEBUG = True
 
 ALLOWED_HOSTS = []
-AUTH_USER_MODEL="authentification_User"
+AUTH_USER_MODEL="authentication.User"
+
 
 
 # Application definition
